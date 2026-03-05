@@ -21,7 +21,7 @@ on:
       OP_IP:
         description: 'IP选项'     
         required: true
-        default: '192.168.31.1'
+        default: '192.168.100.1'
         type: string
         
       OP_router:
@@ -121,3 +121,4 @@ jobs:
       #######################################################
       #旁路由还是主路由
       OP_router: ${{ github.event.inputs.OP_router }}
+
