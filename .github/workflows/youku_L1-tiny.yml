@@ -16,8 +16,7 @@ on:
         type: choice
         options:
         - material
-        - argon
-
+        
       OP_IP:
         description: 'IP选项'     
         required: true
